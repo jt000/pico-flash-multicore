@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+       {
+            "name": "(cortex) Attach remote (core 0)",
+            "type": "cortex-debug",
+            "request": "attach",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/pico-flash-multicore-0.0.1.elf",
+            "servertype": "external",
+            "gdbPath" : "gdb-multiarch",
+            "gdbTarget": "localhost:3333"
+        },
+        {
+            "name": "(cortex) Attach remote (core 1)",
+            "type": "cortex-debug",
+            "request": "attach",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/pico-flash-multicore-0.0.1.elf",
+            "servertype": "external",
+            "gdbPath" : "gdb-multiarch",
+            "gdbTarget": "localhost:3334"
+        }
+    ]
+}

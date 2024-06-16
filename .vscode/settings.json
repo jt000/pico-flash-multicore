@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+    },
+    "cmake.configureSettings": {
+        "TARGET_OS": "rp2xxx",
+        "TARGET_VERSION": "0.0.1"
+    },
+    "remote.extensionKind": {
+        "ms-vscode.vscode-serial-monitor": [
+            "workspace"
+        ]
+    }
+}
